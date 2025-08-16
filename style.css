@@ -139,7 +139,7 @@ header {
     position: absolute;
     top: -3px;     /* adjust vertical position */
     right: 0;   /* stick to the right */
-    width: 100px;  /* adjust size */
+    width: 140px;  /* adjust size */
     height: auto;
     object-fit: contain;
     border: none;
@@ -162,4 +162,5 @@ header {
      
     }
 }
+
 
