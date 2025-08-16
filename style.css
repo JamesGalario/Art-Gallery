@@ -16,21 +16,21 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-      background: #000000; /* solid black */
-    color: #ffffff; 
+    background:#000000; 
+    color: #ffffff;
 }
 
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-family: 'Georgia', serif;
-    color: #ffffff;  /* ensure white */
+    
 }
 
 header p {
     font-size: 1.2rem;
     font-style: italic;
-    color: #ffffff;  /* ensure white */
+    
 }
 
 /* Gallery */
@@ -119,15 +119,46 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
+/* Flexbox header alignment */
+/* Header */
+header {
+    position: relative; /* allows absolute positioning inside */
+    text-align: center;
+    padding: 2rem;
+    background: #000000; 
+    color: #ffffff;
+}
+
+/* Title block stays centered */
+.title-block {
+    text-align: center;
+}
+
+/* Profile Picture fixed to top-right */
+.profile-pic {
+    position: absolute;
+    top: -3px;     /* adjust vertical position */
+    right: 0;   /* stick to the right */
+    width: 170px;  /* adjust size */
+    height: auto;
+    object-fit: contain;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
 
 /* Responsive Text */
-@media (max-width: 600px) {
+@media (max-width: 587px) {
     header h1 {
         font-size: 1.8rem;
     }
     header p {
         font-size: 1rem;
     }
+    .profile-pic {
+        width: 90px;
+        top: 54px;
+        right: 0px;
+     
+    }
 }
-
-
