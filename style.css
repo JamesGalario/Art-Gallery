@@ -158,9 +158,12 @@ header {
 
 @media (max-width: 600px) {
     .profile-pic {
-        width: 50px;
+        width: 90px;
+        top: 54px;
+        right: 0px;
     }
 }
+
 
 
 
