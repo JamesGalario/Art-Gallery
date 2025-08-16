@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(135deg,#000000); /* pastel pink-orange gradient */
+    background: #000000; /* pastel pink-orange gradient */
     color: #333;
 }
 
@@ -129,3 +129,4 @@ footer {
         font-size: 1rem;
     }
 }
+
