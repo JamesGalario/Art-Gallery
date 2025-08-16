@@ -137,9 +137,9 @@ header {
 /* Profile Picture fixed to top-right */
 .profile-pic {
     position: absolute;
-    top: -3px;     /* adjust vertical position */
-    right: 0;   /* stick to the right */
-    width: 200px;  /* adjust size */
+    top: -3px;
+    right: 0px;
+    width: 170px;   /* <-- change size here */
     height: auto;
     object-fit: contain;
     border: none;
@@ -147,21 +147,22 @@ header {
     box-shadow: none;
 }
 
-/* Responsive Text */
-@media (max-width: 587px) {
+@media (max-width: 600px) {
     header h1 {
         font-size: 1.8rem;
     }
     header p {
         font-size: 1rem;
     }
+}
+
+@media (max-width: 600px) {
     .profile-pic {
-        width: 90px;
-        top: 54px;
-        right: 0px;
-     
+        width: 50px;
     }
 }
+
+
 
 
 
